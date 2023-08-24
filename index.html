@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GPA Calculator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="calculator">
+        <table>
+            <tr>
+                <td>Subject 1</td>
+                <td>
+                    <select name="value" id="subject1">
+                        <option value="nothing1" selected>Select Your Letter Grade</option>
+                        <option value="4.00">A+</option>
+                        <option value="3.75">A</option>
+                        <option value="3.50">A-</option>
+                        <option value="3.25">B+</option>
+                        <option value="3.00">B-</option>
+                        <option value="2.75">B</option>
+                        <option value="2.50">C+</option>
+                        <option value="2.25">C</option>
+                        <option value="2.00">D</option>
+                        <option value="0.00">F</option>
+                     </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Subject 2</td>
+                <td>
+                    <select name="value" id="subject2">
+                        <option value="nothing2" selected>Select Your Letter Grade</option>
+                        <option value="4.00">A+</option>
+                        <option value="3.75">A</option>
+                        <option value="3.50">A-</option>
+                        <option value="3.25">B+</option>
+                        <option value="3.00">B-</option>
+                        <option value="2.75">B</option>
+                        <option value="2.50">C+</option>
+                        <option value="2.25">C</option>
+                        <option value="2.00">D</option>
+                        <option value="0.00">F</option>
+                     </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Subject 3</td>
+                <td>
+                    <select name="value" id="subject3">
+                        <option value="nothing2" selected>Select Your Letter Grade</option>
+                        <option value="4.00">A+</option>
+                        <option value="3.75">A</option>
+                        <option value="3.50">A-</option>
+                        <option value="3.25">B+</option>
+                        <option value="3.00">B-</option>
+                        <option value="2.75">B</option>
+                        <option value="2.50">C+</option>
+                        <option value="2.25">C</option>
+                        <option value="2.00">D</option>
+                        <option value="0.00">F</option>
+                     </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Subject 4</td>
+                <td>
+                    <select name="value" id="subject4">
+                        <option value="nothing2" selected>Select Your Letter Grade</option>
+                        <option value="4.00">A+</option>
+                        <option value="3.75">A</option>
+                        <option value="3.50">A-</option>
+                        <option value="3.25">B+</option>
+                        <option value="3.00">B-</option>
+                        <option value="2.75">B</option>
+                        <option value="2.50">C+</option>
+                        <option value="2.25">C</option>
+                        <option value="2.00">D</option>
+                        <option value="0.00">F</option>
+                     </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Subject 5</td>
+                <td>
+                    <select name="value" id="subject5">
+                        <option value="nothing2" selected>Select Your Letter Grade</option>
+                        <option value="4.00">A+</option>
+                        <option value="3.75">A</option>
+                        <option value="3.50">A-</option>
+                        <option value="3.25">B+</option>
+                        <option value="3.00">B-</option>
+                        <option value="2.75">B</option>
+                        <option value="2.50">C+</option>
+                        <option value="2.25">C</option>
+                        <option value="2.00">D</option>
+                        <option value="0.00">F</option>
+                     </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Subject 6</td>
+                <td>
+                    <select name="value" id="subject6">
+                        <option value="nothing2" selected>Select Your Letter Grade</option>
+                        <option value="4.00">A+</option>
+                        <option value="3.75">A</option>
+                        <option value="3.50">A-</option>
+                        <option value="3.25">B+</option>
+                        <option value="3.00">B-</option>
+                        <option value="2.75">B</option>
+                        <option value="2.50">C+</option>
+                        <option value="2.25">C</option>
+                        <option value="2.00">D</option>
+                        <option value="0.00">F</option>
+                     </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Subject 7</td>
+                <td>
+                    <select name="value" id="subject7">
+                        <option value="nothing2" selected>Select Your Letter Grade</option>
+                        <option value="4.00">A+</option>
+                        <option value="3.75">A</option>
+                        <option value="3.50">A-</option>
+                        <option value="3.25">B+</option>
+                        <option value="3.00">B-</option>
+                        <option value="2.75">B</option>
+                        <option value="2.50">C+</option>
+                        <option value="2.25">C</option>
+                        <option value="2.00">D</option>
+                        <option value="0.00">F</option>
+                     </select>
+                </td>
+            </tr>
+        
+
+        </table>
+        
+        <button id="btn">CalCulate GPA</button>
+        <p>Your Point is: <h2 id="heading1"> </h2></p>
+
+
+        <table  class='tbl2'>
+            <tr>
+                <th>Numerical Grade</th>
+                <th>Letter Grade</th>
+                <th>Grade Point</th>
+            </tr>
+            <tr>
+                <td>80% and above</td>
+                <td>A+</td>
+                <td>4.00</td>
+            </tr>
+            <tr>
+                <td>75% to less than 80%</td>
+                <td>A</td>
+                <td>3.75</td>
+            </tr>
+            <tr>
+                <td>70% to less than 75%</td>
+                <td>A-</td>
+                <td>3.50</td>
+             </tr>
+            </tr>
+                <td>65% to less than 70%</td>
+                <td>B+</td>
+                <td>3.25</td>
+             </tr>
+            </tr>
+                <td>60% to less than 65%</td>
+                <td>B</td>
+                <td>3.00</td>
+             </tr>
+            </tr>
+                <td>55% to less than 60%</td>
+                <td>B-</td>
+                <td>2.75</td>
+             </tr>
+            </tr>
+                <td>50% to less than 55%</td>
+                <td>C+</td>
+                <td>2.50</td>
+             </tr>
+            </tr>
+                <td>45% to less than 50%</td>
+                <td>C</td>
+                <td>2.25</td>
+             </tr>
+            </tr>
+                <td>40% to less than 45%</td>
+                <td>D</td>
+                <td>2.00</td>
+             </tr>
+            <tr>
+                <td> 40% (Less than 40%) </td>
+                <td>F</td>
+                <td>0.00</td>
+             </tr>
+        </table>
+
+    </div>
+
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
